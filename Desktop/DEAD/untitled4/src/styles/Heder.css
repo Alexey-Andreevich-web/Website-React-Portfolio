@@ -1,0 +1,14 @@
+.HederMenu{
+    display: flex;
+    padding: 1vw;
+    justify-content: flex-start;
+}
+.HederMenu a{
+    color: #8BEBFF;
+    padding: 0.8vw;
+    text-decoration: none;
+    font-size: 2.5vw;
+}
+.HederMenu a:hover{
+    text-decoration: underline;
+}

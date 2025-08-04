@@ -1,0 +1,10 @@
+.home{
+    margin: 0;
+    padding: 0;
+    height: 100vh;  /* Убедитесь, что body занимает всю высоту экрана */
+    background-image: url('../img/Fone.svg');
+    background-size: cover; /* Фотография будет адаптироваться по размеру экрана */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Убирает повторение фона */
+    background-attachment: fixed; /* При скроллинге фон остается на месте */
+}
