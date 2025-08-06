@@ -6,7 +6,7 @@ function About() {
     return (
         <div className="about">
             <HederMenu/>
-            <p>Страница About</p>
+
             <Footer/>
         </div>
     );
