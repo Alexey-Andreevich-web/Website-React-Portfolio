@@ -8,7 +8,7 @@ import Contacts from './pages/Contacts';
 
 function App() {
   return (
-      <Router>
+      <Router basename="/Website-React-Portfolio">
         <Routes>
             <Route path="/" exact element={<Home/>} />
             <Route path="/About" element={<About/>} />
