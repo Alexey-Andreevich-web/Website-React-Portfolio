@@ -7,16 +7,17 @@ import Portfolio from './pages/Portfolio';
 import Contacts from './pages/Contacts';
 
 function App() {
-  return (
-      <Router basename="/Website-React-Portfolio">
-        <Routes>
-            <Route path="/" exact element={<Home/>} />
-            <Route path="/About" element={<About/>} />
-            <Route path="/Portfolio" element={<Portfolio/>} />
-            <Route path="/Contacts" element={<Contacts/>} />
-        </Routes>
-      </Router>
-  );
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/About" element={<About />} />
+                <Route path="/Portfolio" element={<Portfolio />} />
+                <Route path="/Contacts" element={<Contacts />} />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;
+
