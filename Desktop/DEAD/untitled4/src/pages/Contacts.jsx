@@ -1,5 +1,5 @@
 import HederMenu from "../components/Heder";
-import Footer from "../components/Footer";
+
 
 
 
